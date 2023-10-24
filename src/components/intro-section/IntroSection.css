@@ -1,0 +1,27 @@
+.title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.designation {
+  font-weight: 200;
+}
+
+#image-section {
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  #image-section {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+  }
+
+  .imgBox {
+    max-width: 400px;
+    min-width: 200px;
+  }
+}
